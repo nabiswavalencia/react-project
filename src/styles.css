@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+
+/* Custom CSS for language flags */
+.flag {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.flag:hover {
+    transform: scale(1.2);
+}
+
+.flag.english {
+    background-image: url('https://flagcdn.com/w40/gb.png');
+}
+.flag.swahili {
+    background-image: url('https://flagcdn.com/w40/ke.png');
+}
+.flag.kikuyu {
+    background-image: url('https://flagcdn.com/w40/ke.png');
+}
+.flag.luo {
+    background-image: url('https://flagcdn.com/w40/ke.png');
+}
+.flag.sheng {
+    background-image: url('https://flagcdn.com/w40/ke.png');
+}
+
+/* Style for image translation */
+.image-upload-icon {
+    width: 40px;  /* Increased size for the icon */
+    height: 40px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/2552/2552628.png'); /* Replace with an image upload icon */
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-left: 10px;
+}
+
+.image-upload-icon:hover {
+     transform: scale(1.1);
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.service-card:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}

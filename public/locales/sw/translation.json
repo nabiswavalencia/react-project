@@ -1,0 +1,12 @@
+// public/locales/sw/translation.json
+{
+    "navbar": {
+      "home": "Nyumbani",
+      "about": "Kuhusu",
+      "services": "Huduma",
+      "industries": "Viwanja",
+      "contact": "Mawasiliano",
+      "language": "Lugha"
+    },
+    "welcome": "Karibu Kenya Language Bridge"
+  }
