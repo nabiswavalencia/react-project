@@ -14,6 +14,9 @@ import Medical from './services/Medical';
 import Finance from './services/Finance';
 import Transport from './services/Transport';
 import './styles.css';
+import LoginPage from './pages/LogInpage';
+import RegisterPage from './pages/Registerpage';
+
 
 function App() {
   const { t } = useTranslation();
@@ -46,6 +49,8 @@ function App() {
             <Route path="/medical" element={<Medical />} />
             <Route path="/finance" element={<Finance />} />
             <Route path="/transport" element={<Transport />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path ="/signup" element={<RegisterPage />}/>
           </Routes>
         </div>
       </div>
