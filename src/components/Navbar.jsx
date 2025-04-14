@@ -74,10 +74,15 @@ function Navbar() {
               </div>
             )}
           </div>
-          
+          <Link 
+    to="/login" 
+    className="bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2 rounded-md transition-colors"
+  >
+    {t('Login')}
+  </Link>
           <Link 
             to="/contact" 
-            className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md transition-colors"
+            className="bg-white border border-green-600 text-gray-800 px-4 py-2 rounded hover:bg-green-600 hover:text-white transition-colors duration-300"
           >
             {t('Contact')}
           </Link>
